@@ -1,21 +1,13 @@
-// chapter 01 start 
+// allert 
 
+alert ("Hello Every one")
 
-alert("hello world")
+/*
 
+we can use alert option in JavaScript 
+alert will show a pops on a screen that show a message to user
 
-// chaper 01 end 
+*/
 
-// chapter start 02
+alert ("Thank you for click Okay")
 
-
-var name = "mark";
-
-window.alert(name)
-
-
-var name = "zubair";
-
-window.alert(name)
-
-// chapter 02 end 
