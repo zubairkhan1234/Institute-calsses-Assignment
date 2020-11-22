@@ -1,0 +1,41 @@
+#container {
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+.result{
+    border: none;
+    width: 180px;
+    height: 60px;
+    margin: 0 auto;
+
+}
+
+#operator{
+    border: none;
+    width: 180px;
+    height: 150px;
+    margin:  0 auto;
+
+}
+
+input {
+    margin-top: 10px;
+}
+
+.number, .operator {
+    margin: 0 auto;
+    width: 40px ;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.number:focus, .operator:focus{
+    outline: 0;
+}
+
