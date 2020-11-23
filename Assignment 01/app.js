@@ -1,20 +1,51 @@
 
 
+function addition() {
+    let a = document.getElementById("number1").value;
+    let b = document.getElementById("number2").value;
+    
+    a = parseInt(a);
+    b = parseInt(b);
+        
+    let c = (a + b);
+    document.getElementById("data").innerHTML=c;
+}
 
-// function abc 
 
-// let a = document.getElementById("numberOne")
-// let b = document.getElementById("numberTwo")
-   
-//     c = ( a + b)
 
-    function abc() {
+function substraction() {
+    let a = document.getElementById("number1").value;
+    let b = document.getElementById("number2").value;
+    
+    a = parseInt(a);
+    b = parseInt(b);
+        
+    let c = (a - b);
+    document.getElementById("data").innerHTML=c;
+}
 
-        let number1 = document.getElementById("number1").value
-        let number2 = document.getElementById("number2").value
+function multipication() {
+    let a = document.getElementById("number1").value;
+    let b = document.getElementById("number2").value;
+    
+    a = parseInt(a);
+    b = parseInt(b);
+        
+    let c = (a * b);
+    document.getElementById("data").innerHTML=c;
+}
 
-        number1 = parseInt(number1)
-        number2 = parseInt(number2)
+function devide() {
+    let a = document.getElementById("number1").value;
+    let b = document.getElementById("number2").value;
+    
+    a = parseInt(a);
+    b = parseInt(b);
+        
+    let c = (a / b);
+    document.getElementById("data").innerHTML=c;
+}
 
-        console.log(number1 + number2);
-    }
+
+// var ball = 3+5;
+// document.getElementsByTagName('div')[0].innerHTML = ball;
