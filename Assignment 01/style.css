@@ -3,15 +3,16 @@
     width: 200px;
     height: 300px;
     margin: 100px auto;
+    text-align: center;
 }
 
 #container #data{
     border: none;
     width: 170px;
-    height: 60px;
+    height: 10px;
     margin: 0 auto;
     text-align: right;
-    line-height: 60px;
+    line-height: 10px;
     
 
 }
