@@ -45,7 +45,3 @@ function devide() {
     let c = (a / b);
     document.getElementById("data").innerHTML=c;
 }
-
-
-// var ball = 3+5;
-// document.getElementsByTagName('div')[0].innerHTML = ball;
