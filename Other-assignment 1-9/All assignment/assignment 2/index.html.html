@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Table</title>
+</head>
+
+<body>
+
+    <form action="#" onsubmit="tablecalculation()">
+        <input type="number" name="" id="get-input">
+        <button>OK</button>
+    </form>
+    <p id="table"></p>
+
+
+    <!-- <script src="app.js"></script> -->
+
+    <script>
+
+        function tablecalculation() {
+            let user_Input = parseInt(document.getElementById("get-input").value)
+
+            for (let i = 1; i <= 10; i++) {
+               document.getElementById("table").innerHTML += (user_Input + " x " + i  + " = " + user_Input*i + "</br>" )
+            }
+        }
+    </script>
+
+</body>
+
+</html>

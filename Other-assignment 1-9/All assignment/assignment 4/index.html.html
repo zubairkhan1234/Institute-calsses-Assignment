@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorial</title>
+</head>
+
+<body>
+
+    <form action="#" onsubmit="abc()">
+        <input type="number" id="get-Number">
+        <button>Ok</button>
+    </form>
+    <p id="put-factorial"></p>
+
+
+    <!-- <script src="app.js"></script> -->
+
+    <script>
+        // let a = 5
+        // for (let i = 5; i <= 1; i--){
+        //     console.log ((i*i)*a)           
+        // }
+
+        // factoials
+
+        // function factorial()
+        //         let n = document.getElementById("get-Number").value;
+
+        function abc() {
+        let a = document.getElementById("get-Number").value
+        let fact = 1
+            for (let i = a; i >= 1; i--)
+            {
+                fact = fact * i
+            }
+            document.getElementById("put-factorial").innerHTML = (fact)
+        }
+
+
+
+
+        // let n = document.getElementById("get-Number").value;
+        // answer = factorial()
+        // console.log(n + "!" + " = " + answer);
+
+
+
+    //         function factorial(){
+    //   let answer = 1;
+    //   if (n == 0 || n == 1){
+    //     return answer;
+    //   }else{
+    //     for(var i = n; i >= 1; i--){
+    //       answer = answer * i;
+    //     }
+    //     return answer;
+    //   }  
+    // }
+    // let n = 8;
+    // answer = factorial(n)
+    // console.log(n+"!" + " = " + answer);
+
+
+    </script>
+
+</body>
+
+</html>
