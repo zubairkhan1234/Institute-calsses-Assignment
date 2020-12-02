@@ -9,13 +9,43 @@
 
 <body>
 
-    <form action="#" onsubmit="abc()">
+    <!-- <form action="#" onsubmit="abc()">
         <input type="text" name="" id="firstname" placeholder="firstname">
         <input type="text" name="" id="lastname" placeholder="lastname">
         <p id="result"></p>
-        <button>add</button>
+        <button>add</button> -->
     </form>
     <script>
+        // let arr = [23, 45, 67, 234, 56, 23, 56, 45, 34, 45, 67, 6, 5, 5, 3, 7, 10, 5]
+        //     isEven = 0
+        // for (let i = 0; i <=arr.length; i++) {
+        //     if (arr[i] % 2 === 0) {
+        //         isEven++
+        //         document.write(arr[i] + " <br> ")
+        //         document.write(isEven.lenght)
+        //     }             
+        // }
+
+        let firstName = prompt("enter first name")
+        let lastName = prompt("enter Second name")
+        let arrFirstName = []
+        let arrLastName = []
+        arrFirstName.push(firstName);
+        arrLastName.push(lastName)
+
+        for (i = 0; i < arrFirstName.length; i++){
+            for (let j = 0; j < arrLastName.length; j++) {
+                document.write(arrFirstName[i]  + arrLastName[j])
+            }
+        }
+
+
+
+
+
+
+
+
 
 
 
@@ -66,7 +96,9 @@
 
 
 
-            
+
+
+
 
 
 
@@ -93,18 +125,7 @@
 
 
 
-        // let firstName = prompt("enter first name")
-        // let lastName = prompt("enter Second name")
-        // let arrFirstName = []
-        // let arrLastName = []
-        // arrFirstName.push(firstName);
-        // arrLastName.push(lastName)
 
-        // for (i = 0; i < arrFirstName.length; i++){
-        //     for (let j = 0; j < arrLastName.length; j++) {
-        //         document.write(arrFirstName[i]  + arrLastName[j])
-        //     }
-        // }
 
 
 
