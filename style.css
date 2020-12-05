@@ -1,0 +1,250 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Header styling */
+
+
+
+
+header
+{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(242, 239, 239);
+
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+nav .logo   {
+    display: inline-block;
+    line-height: 80px;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 20px;
+}
+
+nav .logo p  {
+    line-height: 80px;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+  
+nav ul{
+    float: right;
+    line-height: 80px;
+    margin: 0% 2% 0% 0%;
+    padding: 0%;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+    line-height: 80px;
+}
+
+nav ul li a , nav .logo p  {
+    line-height: 80px;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    text-decoration: none;
+}
+
+
+.intro {
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.intro .name p {
+    margin: 30px 0px;
+    font-size: 30px;
+    color: rgb(112, 110, 110);
+}
+
+
+
+
+/* Assingment styling is starting from here 
+in this styling and all changes will be show from this code 
+in assignment section */
+
+
+
+.assignment-contaienr{
+    width: 100%;
+    margin: 0%;
+    padding: 20px 0% 20px 0%;
+    text-align: center;
+
+}
+.assignment-contaienr .assignment-heading p {
+    margin: 0%;
+    color: rgb(112, 110, 110);
+    font-size: 25px;
+    padding-top: 30px;
+    margin-bottom: 80px;
+    margin-top: 0%;
+}
+
+.assignment-link{
+    display: inline-block;
+    width: 500px;
+    /* border: 2px solid red; */
+    text-align: left;
+    margin: 0 2%;
+    padding: 0%;
+
+}
+
+
+
+.assignment-link ul{
+    margin-left: 20px;
+    margin-top: 0%;
+    text-align: left ;
+
+}
+
+
+.assignment-link ul, .assignment-link li, .assignment-link ul li a  {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+    font-size: 18px;
+    margin: 0px 5px  2.5px 10px;
+    padding: 0%;
+}
+
+.assignment-link li {
+    margin-bottom: 2em;
+}
+
+.assignment-link ul li a:hover{
+    color: red;
+}
+
+
+
+
+
+/* About Us styling is starting fron here in this 
+style sheet. All changes will be show from this code 
+about us section */
+
+
+.about-us-container{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+
+
+.about-us-container .person-name p {
+    color: rgb(201, 201, 201);
+    font-size: 25px;
+    padding-top: 30px;
+
+}
+
+.about-us-container .about-person p{
+    margin: 0%;
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+    padding-top: 30px;
+
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+/* Sicial media styling is starting from here 
+in this style sheet. All changes will be show 
+from this code in social sites section */
+
+
+.container{
+    width: 100%;
+    background-color: rgb(242, 239, 239);
+    height: 90vh;
+    margin-top: 0%;
+    text-align: center;
+    
+}
+
+.social-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.container .social-heading p {
+    margin: 0%;
+    color: rgb(112, 110, 110);
+    font-size: 25px;
+    padding-top: 30px ;
+}
+
+.container .social-heading p {
+    margin: 0%;
+    color: rgb(112, 110, 110);
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.container .social-sites {
+    display: inline-block;
+    width: 200px;
+    border: 2px solid red;
+    margin: 2%;
+    height: auto;
+    padding-bottom: 10px;
+
+}
+
+.container .social-sites p {
+    color: rgb(112, 110, 110);
+}
+
+.container .social-sites img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.container .social-sites a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+/* contact us stying is starting from here in this
+styling sheet. All changes will be show from thsi 
+code in contact us section */
