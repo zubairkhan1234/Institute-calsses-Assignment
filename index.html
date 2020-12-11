@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 <body>
@@ -13,7 +14,25 @@
     <!-- Header, Navigation and intro section are starting from here -->
 
     <header id="home">
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#"  >Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link text-light" href="#assignment-section">Assignment</a>
+                  <a class="nav-link text-light" href="#about-us">About Us</a>
+                  <a class="nav-link text-light" href="#social-places" >Social places</a>
+                  <a class="nav-link text-light" href="#contact-us" >Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+        <!-- <nav>
 
             <div class="logo">
                 <p>All Assignment</p>
@@ -25,7 +44,7 @@
                 <li><a href="#social-places">Social places</a></li>
                 <li><a href="#contact-us">Contact Us</a></li>
             </ul>
-        </nav>
+        </nav> -->
 
         <div class="intro">
             <div class="name">
@@ -52,31 +71,44 @@
     <section id="assignment-section">
 
         <div class="assignment-contaienr">
-            
-            <div class="assignment-heading"><p>These are Assignment Link</p></div>
-            
+
+            <div class="assignment-heading">
+                <p>These are Assignment Link</p>
+            </div>
+
             <div class="assignment-link">
                 <ul>
                     <li><a href="./Assignment 01/index.html" target="_blank">1) Mini Calculator</a></li>
                     <li><a href="./Assignment 02/index.html" target="_blank">2) Mark Sheet Calculation</a></li>
-                    <li><a href="./asingment 03/index.html" target="_blank">3) chapter Practice ( IF else & nested if</a></li>
+                    <li><a href="./asingment 03/index.html" target="_blank">3) chapter Practice ( IF else & nested
+                            if</a></li>
                     <li><a href="./Assignment 04/index.html">4) Facebook cover Photo </a></li>
-                    <li><a href="./Assignment 05/examplearts/index.html" target="_blank">5) HTML book link structure</a></li>
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 1/index.html.html" target="_blank">6) Input, Sum and Average of sum of Amount</a></li>
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 2/index.html.html" target="_blank">7) Mathemetical Table calculation</a></li>
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 3/index.html" target="_blank">8) Get a even & odd number </a></li>
+                    <li><a href="./Assignment 05/examplearts/index.html" target="_blank">5) HTML book link structure</a>
+                    </li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 1/index.html.html" target="_blank">6)
+                            Input, Sum and Average of sum of Amount</a></li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 2/index.html.html" target="_blank">7)
+                            Mathemetical Table calculation</a></li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 3/index.html" target="_blank">8) Get a
+                            even & odd number </a></li>
                 </ul>
             </div>
 
             <div class="assignment-link">
                 <ul>
 
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 4/index.html.html" target="_blank">9) Pattern like right angle triangle using an asterisk</a></li>
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 5/index.html.html" target="_blank">10) Pattern like right angle triangle with a number</a></li>
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 6/index.html.html" target="_blank">11) Pattern like right angle triangle with a reapeted number</a></li>
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 7/index.html.html" target="_blank">12) Calculate the factorial of a given number</a></li>
-                    <li><a href="./Other-assignment 1-9/All assignment/assignment 8/index.html.html" target="_blank">13) find the prime numbers within a range of numbers</a></li>
-                    <li><a href="#" target="_blank">14) display the number in reverse order ( It not completed )</a></li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 4/index.html.html" target="_blank">9)
+                            Pattern like right angle triangle using an asterisk</a></li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 5/index.html.html" target="_blank">10)
+                            Pattern like right angle triangle with a number</a></li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 6/index.html.html" target="_blank">11)
+                            Pattern like right angle triangle with a reapeted number</a></li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 7/index.html.html" target="_blank">12)
+                            Calculate the factorial of a given number</a></li>
+                    <li><a href="./Other-assignment 1-9/All assignment/assignment 8/index.html.html" target="_blank">13)
+                            find the prime numbers within a range of numbers</a></li>
+                    <li><a href="#" target="_blank">14) display the number in reverse order ( It not completed )</a>
+                    </li>
                     <li><a href="#" target="_blank">15) Assignment Name</a></li>
                     <li><a href="#" target="_blank">16) Assignment Name</a></li>
                 </ul>
@@ -103,16 +135,16 @@
             <div class="about-person">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Quia repellat reiciendis illum mollitia. Eligendi, officia expedita? <br>
+                    Quia repellat reiciendis illum mollitia. Eligendi, officia expedita? <br>
                     Adipisci consequuntur, magnam magni labore molestiae fugit eveniet in iste doloribus a <br>
-                     necessitatibus autem?
-        
+                    necessitatibus autem?
+
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Quia repellat reiciendis illum mollitia. Eligendi, officia expedita? <br>
+                    Quia repellat reiciendis illum mollitia. Eligendi, officia expedita? <br>
                     Adipisci consequuntur, magnam magni labore molestiae fugit eveniet in iste doloribus a <br>
-                     necessitatibus autem?
-        
+                    necessitatibus autem?
+
             </div>
         </div>
 
@@ -132,27 +164,27 @@
                 <p>Other Social and Working places</p>
             </div>
             <div class="social-sites">
-                
+
                 <img src="./images/icon.png" alt="">
                 <p>
-                    Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Dicta sit <br> 
+                    Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Dicta sit <br>
                 </p>
                 <a href="#">Go to facebook</a>
 
             </div>
             <div class="social-sites">
                 <img src="./images/icon.png" alt="">
-                
+
                 <p>
-                    Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Dicta sit <br> 
+                    Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Dicta sit <br>
                 </p>
                 <a href="#">Go to Instagram</a>
             </div>
             <div class="social-sites">
                 <img src="./images/icon.png" alt="">
-                
+
                 <p>
-                    Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Dicta sit <br> 
+                    Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br> Dicta sit <br>
                 </p>
                 <a href="#"> Go to GitHub</a>
             </div>
@@ -194,6 +226,14 @@
         </div>
 
     </section>
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
 
 </body>
