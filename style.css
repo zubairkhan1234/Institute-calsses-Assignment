@@ -285,9 +285,30 @@ code in contact us section */
 
 .contact-detail .social-sites {
     display: inline-block;
-    width: 200px;
-    border: 2px solid red;
+    width:300px;
+    border: 2px solid white;
     margin: 2%;
     height: auto;
     padding-bottom: 10px;
+    text-align: left;
+    
+}
+.contact-detail .social-sites ul li{
+    list-style: none;
+    
+}
+.contact-detail .social-sites ul{
+    margin: 20px;
+}
+.contact-detail .social-sites ul li a {
+    text-decoration: navajowhite;
+    color: white;
+    margin-left: 10px;
+}
+
+.contact-detail .social-sites img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 10px 0px;
+    border-radius: 10px;
 }
