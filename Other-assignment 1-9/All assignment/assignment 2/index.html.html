@@ -9,7 +9,7 @@
 
 <body>
 
-    <form action="#" onsubmit="tablecalculation()">
+    <form action="#" onsubmit="return tablecalculation()">
         <h2>Enter a number who you want to get a table</h2>
         <input type="number" name="" id="get-input">
         <button>OK</button>
@@ -19,16 +19,7 @@
 
     <!-- <script src="app.js"></script> -->
 
-    <script>
-
-        function tablecalculation() {
-            let user_Input = parseInt(document.getElementById("get-input").value)
-
-            for (let i = 1; i <= 10; i++) {
-               document.getElementById("table").innerHTML += (user_Input + " x " + i  + " = " + user_Input*i + "</br>" )
-            }
-        }
-    </script>
+    <script src="app.js"></script>
 
 </body>
 

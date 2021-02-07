@@ -9,7 +9,7 @@
 
 <body>
 
-    <form action="#" onsubmit="abc()">
+    <form action="#" onsubmit="return abc()">
         <h2>Add a number</h2>
         <input type="number" placeholder="Enternumber" id="userinput">
         <button>Add</button>
@@ -24,42 +24,13 @@
     <p id="oddnumber"></p>
 
 
-    <script>
-
-        let arr = [];
-        let odd = [];
-        let even = [];
-
-
-        function abc() {
-            const a = document.getElementById("userinput").value ;
-            arr.push(a)
-            document.getElementById("addnumber").innerHTML = arr;
-            document.getElementById("userinput").value = "";
-        }
-
-        function arrangment() {
-            for (i = 0; i < arr.length; i++) {
-                if (arr[i] % 2 === 0) {
-                    odd.push(arr[i])
-                    document.getElementById("evennumber").innerHTML = odd;
-                }
-                else {
-                    even.push(arr[i])
-                    document.getElementById("oddnumber").innerHTML = even;
-
-                }
-
-            }
-        }
-
-        
+    <script src="app.js"></script>
 
 
 
 
 
-    </script>
+
 </body>
 
 </html>

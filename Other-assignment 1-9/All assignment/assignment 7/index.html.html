@@ -9,7 +9,7 @@
 
 <body>
 
-    <form action="#" onsubmit="abc()">
+    <form action="#" onsubmit="return abc()">
 
         <h3>Enter any number and get factorial of a Number</h3>
 
@@ -19,18 +19,18 @@
     <p id="put-factorial"></p>
 
 
-    <!-- <script src="app.js"></script> -->
+    <script src="app.js"></script>
 
-    <script>
-        // let a = 5
-        // for (let i = 5; i <= 1; i--){
-        //     console.log ((i*i)*a)           
-        // }
+    <!-- <script>
+        let a = 5
+        for (let i = 5; i <= 1; i--){
+            console.log ((i*i)*a)           
+        }
 
-        // factoials
+        factoials
 
-        // function factorial()
-        //         let n = document.getElementById("get-Number").value;
+        function factorial()
+                let n = document.getElementById("get-Number").value;
 
         function abc() {
         let a = document.getElementById("get-Number").value
@@ -40,34 +40,36 @@
                 fact = fact * i
             }
             document.getElementById("put-factorial").innerHTML = (fact)
+            
+            return false
         }
 
 
 
 
-        // let n = document.getElementById("get-Number").value;
-        // answer = factorial()
-        // console.log(n + "!" + " = " + answer);
+        let n = document.getElementById("get-Number").value;
+        answer = factorial()
+        console.log(n + "!" + " = " + answer);
 
 
 
-    //         function factorial(){
-    //   let answer = 1;
-    //   if (n == 0 || n == 1){
-    //     return answer;
-    //   }else{
-    //     for(var i = n; i >= 1; i--){
-    //       answer = answer * i;
-    //     }
-    //     return answer;
-    //   }  
-    // }
-    // let n = 8;
-    // answer = factorial(n)
-    // console.log(n+"!" + " = " + answer);
+            function factorial(){
+      let answer = 1;
+      if (n == 0 || n == 1){
+        return answer;
+      }else{
+        for(var i = n; i >= 1; i--){
+          answer = answer * i;
+        }
+        return answer;
+      }  
+    }
+    let n = 8;
+    answer = factorial(n)
+    console.log(n+"!" + " = " + answer);
 
 
-    </script>
+    </script> -->
 
 </body>
 

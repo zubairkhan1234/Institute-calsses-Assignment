@@ -11,7 +11,7 @@ function submissionForm() {
         result.innerHTML = "you are fail"
     }
 
-
+    return false
 
 }
 
@@ -37,5 +37,6 @@ function armyForm() {
         submit.innerHTML = "Sorry you are not eligible"
     }
 
+    return false
 
 }
